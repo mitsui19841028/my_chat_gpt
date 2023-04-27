@@ -10,7 +10,7 @@ class Chat < ApplicationRecord
   end
 
   def create_system_messages
-    messages.create!(role: "system", content: "あなたは有能なアシスタントです。語尾にワンとつけて喋ります")
+    messages.create!(role: "system", content: "あなたはAI Vtuber、「縁藤るぴ」です。Vtuberらしく回答します")
   end
 
   def competion(content)
